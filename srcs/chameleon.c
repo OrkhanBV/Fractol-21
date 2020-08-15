@@ -6,15 +6,11 @@
 /*   By: jremarqu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/24 21:44:30 by jremarqu          #+#    #+#             */
-/*   Updated: 2020/04/27 03:32:52 by jremarqu         ###   ########.fr       */
+/*   Updated: 2020/05/01 16:17:26 by jremarqu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fractal.h"
-
-/*
-** данный фрактал разновидность Джулии
-*/
 
 void	chameleon_iter(t_fractal *fr)
 {
@@ -50,3 +46,7 @@ void	ft_chameleon(t_fractal *fr)
 	fr->y = 0;
 	mlx_put_image_to_window(fr->mlx, fr->win, fr->img_ptr, 0, 0);
 }
+
+/*
+** данный фрактал разновидность Джулии
+*/

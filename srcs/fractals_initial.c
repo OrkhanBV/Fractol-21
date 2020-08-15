@@ -6,7 +6,7 @@
 /*   By: jremarqu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/24 22:37:31 by jremarqu          #+#    #+#             */
-/*   Updated: 2020/05/03 00:11:42 by jremarqu         ###   ########.fr       */
+/*   Updated: 2020/04/28 00:29:18 by jremarqu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,8 +44,8 @@ void	init_mandelbar(t_fractal *fr)
 
 void	init_mandelbrot(t_fractal *fr)
 {
-	fr->width = 500;
-	fr->height = 500;
+	fr->width = 1000;
+	fr->height = 1000;
 	fr->x = 0;
 	fr->y = 0;
 	fr->iter = 0;
